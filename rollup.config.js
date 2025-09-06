@@ -1,5 +1,6 @@
 import resolve from '@rollup/plugin-node-resolve';
 import commonjs from '@rollup/plugin-commonjs';
+import nodePolyfills from 'rollup-plugin-node-polyfills';
 
 export default {
   input: 'node_modules/@gutenye/ocr-browser/build/index.js',
@@ -8,5 +9,5 @@ export default {
     format: 'umd',
     name: 'GutenyeOCR',
   },
-  plugins: [resolve(), commonjs()],
+  plugins: [resolve({ browser: true }), commonjs(), nodePolyfills()],
 };

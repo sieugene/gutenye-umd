@@ -1,0 +1,28 @@
+{
+  "name": "gutenye-umd",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sieugene/gutenye-umd.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sieugene/gutenye-umd/issues"
+  },
+  "homepage": "https://github.com/sieugene/gutenye-umd#readme",
+  "description": "",
+  "dependencies": {
+    "@gutenye/ocr-browser": "^1.4.8"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.6",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "rollup": "^4.50.0"
+  }
+}

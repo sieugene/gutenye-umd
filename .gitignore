@@ -1,3 +1,8 @@
 package-lock.json
 node_modules
 .DS_Store
+
+data/japanese/paddle_env_x86/*
+data/japanese/ch_ppocr_mobile_v2.0_cls_infer/*
+data/japanese/japan_PP-OCRv4_rec_infer/*
+data/japanese/Multilingual_PP-OCRv3_det_infer/*

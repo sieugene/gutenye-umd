@@ -18,3 +18,7 @@ Next.js Cdn script
       />
 
 ```
+
+
+dicts
+https://gitee.com/paddlepaddle/PaddleOCR/tree/release/2.2/ppocr/utils/dict
